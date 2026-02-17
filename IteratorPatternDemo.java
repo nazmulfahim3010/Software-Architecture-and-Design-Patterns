@@ -2,7 +2,8 @@ public class IteratorPatternDemo {
 
     public static void main(String[] args) {
         NameRepo namerepo = new NameRepo();
-        for (Iterator iter = namerepo.getIterator(); iter.hasNext();) {
+        Iterator iter = namerepo.getIterator();
+        while (iter.hasNext()) {
             String name = (String) iter.Next();
             System.out.println("Name : " + name);
         }
