@@ -1,0 +1,8 @@
+| Pattern   | Purpose                  | Key Use Case      |
+| --------- | ------------------------ | ----------------- |
+| Memento   | Save/restore state       | Undo/Redo         |
+| Observer  | Notify multiple objects  | Notifications     |
+| Command   | Encapsulate actions      | Task execution    |
+| Adapter   | Convert interfaces       | API integration   |
+| Facade    | Simplify complex systems | Unified interface |
+| Singleton | Ensure single instance   | Shared resources  |
